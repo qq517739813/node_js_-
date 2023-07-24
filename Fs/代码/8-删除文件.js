@@ -15,5 +15,6 @@ fs.rm('./观书有感.txt.txt', err => {
         return
     }
     console.log('成功');
+    console.log('成功');
 
 })
