@@ -1,0 +1,9 @@
+{
+  "name": "4_yarn",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "less": "^4.2.0"
+  }
+}

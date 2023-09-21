@@ -1,4 +1,4 @@
 //导入
-const m = require('./module/app');
+const m = require('./module');
 
 console.log(m);

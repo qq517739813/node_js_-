@@ -1,0 +1,17 @@
+{
+  "name": "1_npm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "node ./3_http.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "tss_math": "^1.0.0",
+    "uniq": "^1.0.1"
+  }
+}
