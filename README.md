@@ -18,6 +18,7 @@ npm use 18.12.1 切换版本
 数据库命令 客户端
 show dbs 
 use bilibili
+show collections
 db.createCollection('users')
 db.dorpDatabase()
 db.users.insert({name: 'John', age:18})
@@ -25,6 +26,14 @@ db.users.find();
 db.users.find({age:18})
 db.users.updata({name:John, $set:{age:20}})
 db.users.remove({name: 'John})
+cmd-> mongod 开启服务器
+cmd-> mongo 开启客户端
+waiting for connections 端口
+
+
+集合=对象
+文档=每一个库
+
 
 查看数据的运算符
 > $gt
